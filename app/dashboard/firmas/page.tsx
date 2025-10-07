@@ -13,7 +13,7 @@ export default function FirmasPage() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold">Módulo Firmas</h1>
-          <p className="text-muted-foreground">Gestión y análisis de firmas digitales</p>
+          <p className="text-muted-foreground">Gestión y análisis de firmas Imparables</p>
         </div>
         <button onClick={() => router.back()} className="text-sm text-muted-foreground hover:text-foreground">
           ← Volver
@@ -29,7 +29,7 @@ export default function FirmasPage() {
             <CardTitle className="text-xl font-bold">Visor de Firmas</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            <p className="text-muted-foreground text-sm">Herramientas para la gestión y análisis de firmas digitales</p>
+            <p className="text-muted-foreground text-sm">Herramientas para la gestión y análisis de firmas Imparables</p>
             <Button
               onClick={() => router.push("/dashboard/firmas/visor")}
               className="w-full bg-indigo-500 hover:bg-indigo-600 text-white"

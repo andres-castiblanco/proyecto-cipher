@@ -10,7 +10,7 @@ export default function FirmasVisorPage() {
       <div className="flex items-center justify-between">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tight">Firmas - Visor</h1>
-          <p className="text-muted-foreground text-lg">Gestión y análisis de firmas digitales</p>
+          <p className="text-muted-foreground text-lg">Gestión y análisis de firmas Imparables</p>
         </div>
         <button
           onClick={() => router.back()}

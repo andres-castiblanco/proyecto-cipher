@@ -142,6 +142,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       </Button>
                       <CollapsibleContent className="transition-all duration-200">
                         <div className="ml-4 space-y-1 mt-1">
+
+                          {/* 🔽 Visor (COMENTADO) */}
+                          {/*
                           <Button
                             variant="ghost"
                             onClick={() => handleNavigation("/dashboard/programatico/diagnostico/visor")}
@@ -150,6 +153,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
                             <Eye className="w-3 h-3 mr-2" />
                             Visor
                           </Button>
+                          */}
+
+                          {/* ✅ Briefs (se mantiene visible) */}
                           <Button
                             variant="ghost"
                             onClick={() => handleNavigation("/dashboard/programatico/diagnostico/briefs")}

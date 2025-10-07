@@ -17,7 +17,7 @@ export default function ProgramaticoPage() {
       color: "bg-blue-500",
       hoverColor: "hover:bg-blue-600",
       subsections: [
-        { name: "Visor", path: "/dashboard/programatico/diagnostico/visor", icon: Eye },
+        //{ name: "Visor", path: "/dashboard/programatico/diagnostico/visor", icon: Eye },
         { name: "Briefs", path: "/dashboard/programatico/diagnostico/briefs", icon: FileText },
       ],
     },

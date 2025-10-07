@@ -1718,6 +1718,9 @@ video {
 .p-\[1px\] {
   padding: 1px;
 }
+.p-5 {
+  padding: 1.25rem;
+}
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
