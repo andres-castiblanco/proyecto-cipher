@@ -11,7 +11,7 @@ export default function ProgramaticoPage() {
   const sections = [
     {
       id: "diagnostico",
-      title: "Diagnóstico",
+      title: "Diagnósticos y propuestas",
       description: "Análisis y diagnóstico general",
       icon: BarChart3,
       color: "bg-blue-500",
@@ -21,7 +21,7 @@ export default function ProgramaticoPage() {
         { name: "Briefs", path: "/dashboard/programatico/diagnostico/briefs", icon: FileText },
       ],
     },
-    {
+    /*{ 
       id: "propuestas",
       title: "Propuestas",
       description: "Propuestas y recomendaciones",
@@ -32,7 +32,7 @@ export default function ProgramaticoPage() {
         { name: "Visor", path: "/dashboard/programatico/propuestas/visor", icon: Eye },
         { name: "Briefs", path: "/dashboard/programatico/propuestas/briefs", icon: FileText },
       ],
-    },
+    },*/
   ]
 
   return (

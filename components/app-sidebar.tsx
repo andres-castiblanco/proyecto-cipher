@@ -133,7 +133,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         onClick={() => setDiagnosticoOpen(!diagnosticoOpen)}
                         className="w-full justify-start h-8 text-sm hover:bg-sidebar-accent/50 transition-colors"
                       >
-                        <span>Diagnóstico</span>
+                        <span>Diagnóstico y propuestas</span>
                         <ChevronRight
                           className={`ml-auto w-3 h-3 transition-transform duration-200 ${
                             diagnosticoOpen ? "rotate-90" : "rotate-0"
@@ -167,8 +167,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
-
-                    {/* Propuestas */}
+                    
+                    {/* Propuestas (COMENTADA) */}
+                    {/*
                     <Collapsible open={propuestasOpen} onOpenChange={setPropuestasOpen}>
                       <Button
                         variant="ghost"
@@ -203,6 +204,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
+                    */}
                   </div>
                 </CollapsibleContent>
               </Collapsible>

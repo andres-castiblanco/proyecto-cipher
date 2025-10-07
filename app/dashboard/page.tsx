@@ -91,7 +91,7 @@ export default function DashboardHome() {
     {
       id: "programatico",
       title: "Módulo Programático",
-      description: "Diagnósticos y propuestas por ministerios",
+      description: "Diagnósticos y propuestas por sector",
       icon: BarChart3,
       color: "bg-blue-500",
       hoverColor: "hover:bg-blue-600",

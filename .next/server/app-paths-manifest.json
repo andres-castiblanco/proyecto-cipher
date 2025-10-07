@@ -1,9 +1,8 @@
 {
   "/page": "app/page.js",
-  "/dashboard/programatico/diagnostico/briefs/page": "app/dashboard/programatico/diagnostico/briefs/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/dashboard/admin/page": "app/dashboard/admin/page.js",
-  "/dashboard/candidatos/relevantes/page": "app/dashboard/candidatos/relevantes/page.js",
+  "/dashboard/programatico/page": "app/dashboard/programatico/page.js",
+  "/dashboard/programatico/diagnostico/briefs/page": "app/dashboard/programatico/diagnostico/briefs/page.js",
   "/dashboard/firmas/visor/page": "app/dashboard/firmas/visor/page.js",
-  "/dashboard/candidatos/page": "app/dashboard/candidatos/page.js"
+  "/dashboard/candidatos/relevantes/page": "app/dashboard/candidatos/relevantes/page.js"
 }
