@@ -129,7 +129,7 @@ export default function DiagnosticoBriefsPage() {
               className="flex items-center gap-2 bg-transparent"
             >
               <ArrowLeft className="w-4 h-4" />
-              Volver a la lista
+              
             </Button>
             <div>
               <h1 className="text-3xl font-bold">{selectedDocumento.title}</h1>
