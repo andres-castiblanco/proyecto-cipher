@@ -18,7 +18,7 @@ export default function Electoral2022VisorPage() {
       </div>
 
       <div className="w-full h-[600px] border rounded-lg overflow-hidden">
-        <iframe src="https://es.wikipedia.org/wiki/Guyana" className="w-full h-full" title="Elecciones 2022 Visor" />
+        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiM2Y5YzdmMGEtMmI1NS00NDQ5LTgxZDMtZTM1NTNkMTRjNDE3IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9" className="w-full h-full" title="Elecciones 2022 Visor" />
       </div>
     </div>
   )

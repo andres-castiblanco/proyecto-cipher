@@ -11,65 +11,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/layout.js"
     ],
-    "/dashboard/page": [
+    "/dashboard/encuestas/visor/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/page.js"
+      "static/chunks/app/dashboard/encuestas/visor/page.js"
     ],
-    "/dashboard/programatico/page": [
+    "/dashboard/encuestas/briefs/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/programatico/page.js"
-    ],
-    "/dashboard/programatico/diagnostico/briefs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/programatico/diagnostico/briefs/page.js"
-    ],
-    "/dashboard/electoral/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/page.js"
-    ],
-    "/dashboard/electoral/2018/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2018/visor/page.js"
-    ],
-    "/dashboard/candidatos/relevantes/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/candidatos/relevantes/page.js"
-    ],
-    "/dashboard/electoral/2018/briefs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2018/briefs/page.js"
-    ],
-    "/dashboard/electoral/2022/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2022/visor/page.js"
-    ],
-    "/dashboard/electoral/2022/briefs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2022/briefs/page.js"
-    ],
-    "/dashboard/firmas/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/firmas/visor/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/dashboard/firmas/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/firmas/page.js"
+      "static/chunks/app/dashboard/encuestas/briefs/page.js"
     ]
   }
 }

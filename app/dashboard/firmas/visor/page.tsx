@@ -21,10 +21,6 @@ export default function FirmasVisorPage() {
       </div>
 
       <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm hidden">
-        <iframe src="https://es.wikipedia.org/wiki/México" className="w-full h-full" title="Visor de Firmas" />
-      </div> 
-
-      <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm hidden">
       <iframe src="https://app.powerbi.com/view?r=eyJrIjoiNzE3YWNlY2ItZjY4Zi00NzFiLThjODQtNDc1NDk4NDNjOGI1IiwidCI6ImVkNDlmZTlhLTZlZWEtNDdlNi1iZjUyLWVlOWVjYjVkYTgwNyJ9&pageName=ReportSection7d46bd06776984c3f9f2&disablecdnExpiration=1750965030" className="w-full h-full" title="Visor de Firmas" />
       </div>
 
@@ -38,6 +34,10 @@ export default function FirmasVisorPage() {
       
       <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm hidden">
       <iframe src="https://lookerstudio.google.com/embed/reporting/357d3449-ff70-409e-ae38-7eef4a65a4d7" className="w-full h-full" title="Visor de Firmas" />
+      </div>
+
+      <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm">
+      <iframe src="https://estadisticaselectorales.registraduria.gov.co/unit?str_opc=Elecciones%20Presidenciales%20Primera%20Vuelta&idFilter=1&filter=PRESIDENCIALES&t=&y1=2018&i1=5&y2=&i2=-" className="w-full h-full" title="Visor de Firmas" />
       </div>
       
       <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm">
