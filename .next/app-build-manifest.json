@@ -11,6 +11,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/layout.js"
     ],
+    "/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/page.js"
+    ],
     "/dashboard/encuestas/visor/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -20,6 +25,36 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/encuestas/briefs/page.js"
+    ],
+    "/dashboard/encuestas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/encuestas/page.js"
+    ],
+    "/dashboard/electoral/2018/visor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2018/visor/page.js"
+    ],
+    "/dashboard/electoral/2018/briefs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2018/briefs/page.js"
+    ],
+    "/dashboard/electoral/2022/visor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2022/visor/page.js"
+    ],
+    "/dashboard/electoral/2022/briefs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2022/briefs/page.js"
+    ],
+    "/dashboard/programatico/diagnostico/briefs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/programatico/diagnostico/briefs/page.js"
     ]
   }
 }

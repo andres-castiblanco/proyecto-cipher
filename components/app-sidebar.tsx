@@ -330,6 +330,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       <Eye className="w-3 h-3 mr-2" />
                       Visor
                     </Button>
+                    {/* 🔽 (COMENTADO) */}
+                    {/*
                     <Button
                       variant="ghost"
                       onClick={() => handleNavigation("/dashboard/encuestas/briefs")}
@@ -338,6 +340,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       <FileText className="w-3 h-3 mr-2" />
                       Briefs
                     </Button>
+                    */}
                   </div>
                 </CollapsibleContent>
               </Collapsible>

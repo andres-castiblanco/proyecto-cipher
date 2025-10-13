@@ -17,14 +17,14 @@ export default function EncuestasPage() {
       color: "bg-purple-500",
       path: "/dashboard/encuestas/visor",
     },
-    {
+    /*{
       id: "briefs",
       title: "Briefs de Encuestas",
       description: "Informes resumidos de encuestas",
       icon: FileText,
       color: "bg-blue-500",
       path: "/dashboard/encuestas/briefs",
-    },
+    },*/
   ]
 
   return (

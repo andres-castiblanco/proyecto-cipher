@@ -1,4 +1,8 @@
 {
+  "/dashboard/page": "app/dashboard/page.js",
   "/dashboard/encuestas/visor/page": "app/dashboard/encuestas/visor/page.js",
-  "/dashboard/encuestas/briefs/page": "app/dashboard/encuestas/briefs/page.js"
+  "/dashboard/encuestas/page": "app/dashboard/encuestas/page.js",
+  "/dashboard/encuestas/briefs/page": "app/dashboard/encuestas/briefs/page.js",
+  "/dashboard/electoral/2022/visor/page": "app/dashboard/electoral/2022/visor/page.js",
+  "/dashboard/programatico/diagnostico/briefs/page": "app/dashboard/programatico/diagnostico/briefs/page.js"
 }
