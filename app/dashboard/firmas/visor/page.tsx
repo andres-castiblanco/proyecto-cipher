@@ -35,10 +35,6 @@ export default function FirmasVisorPage() {
       <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm hidden">
       <iframe src="https://lookerstudio.google.com/embed/reporting/357d3449-ff70-409e-ae38-7eef4a65a4d7" className="w-full h-full" title="Visor de Firmas" />
       </div>
-
-      <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm">
-      <iframe src="https://estadisticaselectorales.registraduria.gov.co/unit?str_opc=Elecciones%20Presidenciales%20Primera%20Vuelta&idFilter=1&filter=PRESIDENCIALES&t=&y1=2018&i1=5&y2=&i2=-" className="w-full h-full" title="Visor de Firmas" />
-      </div>
       
       <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm">
       <iframe src="https://lookerstudio.google.com/embed/reporting/6e56f3b1-4a55-4e1c-b7ea-3c00c735f0f9" className="w-full h-full" title="Visor de Firmas" />

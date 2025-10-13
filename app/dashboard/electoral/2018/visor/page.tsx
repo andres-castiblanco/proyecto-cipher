@@ -17,9 +17,13 @@ export default function Electoral2018VisorPage() {
         </button>
       </div>
 
+      <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm hidden">
+      <iframe src="https://estadisticaselectorales.registraduria.gov.co/unit?str_opc=Elecciones%20Presidenciales%20Primera%20Vuelta&idFilter=1&filter=PRESIDENCIALES&t=&y1=2018&i1=5&y2=&i2=-" className="w-full h-full" title="Visor de Firmas" />
+      </div>
+
       <div className="w-full h-[600px] border rounded-lg overflow-hidden">
         <iframe src="https://es.wikipedia.org/wiki/Perú" className="w-full h-full" title="Elecciones 2018 Visor" />
-      </div>
+      </div>   
     </div>
   )
 }
