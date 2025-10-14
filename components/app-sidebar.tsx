@@ -228,7 +228,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
                   <div className="ml-6 space-y-1 mt-1">
+                    {/* 🔽 (COMENTADO) */}
                     {/* Elecciones 2018 */}
+                    {/*
                     <Collapsible open={elecciones2018Open} onOpenChange={setElecciones2018Open}>
                       <Button
                         variant="ghost"
@@ -244,6 +246,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       </Button>
                       <CollapsibleContent className="transition-all duration-200">
                         <div className="ml-4 space-y-1 mt-1">
+                          
                           <Button
                             variant="ghost"
                             onClick={() => handleNavigation("/dashboard/electoral/2018/visor")}
@@ -263,6 +266,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
+                    */}
 
                     {/* Elecciones 2022 */}
                     <Collapsible open={elecciones2022Open} onOpenChange={setElecciones2022Open}>
@@ -288,6 +292,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                             <Eye className="w-3 h-3 mr-2" />
                             Visor
                           </Button>
+                          {/*
                           <Button
                             variant="ghost"
                             onClick={() => handleNavigation("/dashboard/electoral/2022/briefs")}
@@ -296,6 +301,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                             <FileText className="w-3 h-3 mr-2" />
                             Briefs
                           </Button>
+                          */}
                         </div>
                       </CollapsibleContent>
                     </Collapsible>

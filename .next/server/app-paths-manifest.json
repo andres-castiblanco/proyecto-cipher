@@ -1,4 +1,8 @@
 {
+  "/page": "app/page.js",
   "/dashboard/firmas/visor/page": "app/dashboard/firmas/visor/page.js",
-  "/dashboard/electoral/2018/visor/page": "app/dashboard/electoral/2018/visor/page.js"
+  "/dashboard/electoral/2022/visor/page": "app/dashboard/electoral/2022/visor/page.js",
+  "/dashboard/encuestas/page": "app/dashboard/encuestas/page.js",
+  "/dashboard/encuestas/visor/page": "app/dashboard/encuestas/visor/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
 }
