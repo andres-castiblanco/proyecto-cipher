@@ -9,7 +9,7 @@ export default function ElectoralPage() {
   const router = useRouter()
 
   const elections = [
-    /*{
+    {
       id: "2018",
       title: "Elecciones 2018",
       description: "Análisis electoral y resultados 2018",
@@ -18,9 +18,9 @@ export default function ElectoralPage() {
       hoverColor: "hover:bg-blue-600",
       subsections: [
         { name: "Visor", path: "/dashboard/electoral/2018/visor", icon: Eye },
-        { name: "Briefs", path: "/dashboard/electoral/2018/briefs", icon: FileText },
+       // { name: "Briefs", path: "/dashboard/electoral/2018/briefs", icon: FileText },
       ],
-    },*/
+    },
     {
       id: "2022",
       title: "Elecciones 2022",

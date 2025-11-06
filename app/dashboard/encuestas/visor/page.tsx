@@ -30,7 +30,7 @@ export default function EncuestasVisorPage() {
       <div className="w-full h-[600px] border rounded-lg overflow-hidden">
         <iframe src="/escandalos_petro.html" className="w-full h-full" title="Visor de Encuestas" />
       </div>
-      
+
     </div>
   )
 }

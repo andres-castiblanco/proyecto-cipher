@@ -22,7 +22,7 @@ export default function Electoral2018VisorPage() {
       </div>
 
       <div className="w-full h-[600px] border rounded-lg overflow-hidden">
-        <iframe src="https://es.wikipedia.org/wiki/Perú" className="w-full h-full" title="Elecciones 2018 Visor" />
+        <iframe src="https://andres-castiblanco.github.io/Elecciones/#11/4.5485/-74.1327" className="w-full h-full" title="Elecciones 2018 Visor" />
       </div>   
     </div>
   )
