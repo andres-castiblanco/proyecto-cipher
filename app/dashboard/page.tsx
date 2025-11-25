@@ -101,7 +101,7 @@ export default function DashboardHome() {
     {
       id: "electoral",
       title: "Módulo Electoral",
-      description: "Análisis electoral 2018 y 2022",
+      description: "Estrategia y Análisis electoral 2016, 2018 y 2022",
       icon: Vote,
       color: "bg-green-500",
       hoverColor: "hover:bg-green-600",

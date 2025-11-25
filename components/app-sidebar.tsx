@@ -43,8 +43,10 @@ export function AppSidebar({ user }: AppSidebarProps) {
   const [diagnosticoOpen, setDiagnosticoOpen] = useState(false)
   const [propuestasOpen, setPropuestasOpen] = useState(false)
   const [electoralOpen, setElectoralOpen] = useState(false)
+  const [elecciones2016Open, setElecciones2016Open] = useState(false)
   const [elecciones2018Open, setElecciones2018Open] = useState(false)
   const [elecciones2022Open, setElecciones2022Open] = useState(false)
+  const [generalEstrategiaOpen, setGeneralEstrategiaOpen] = useState(false)
   const [encuestasOpen, setEncuestasOpen] = useState(false)
   const [candidatosOpen, setCandidatosOpen] = useState(false)
   const [diaDOpen, setDiaDOpen] = useState(false)
@@ -119,9 +121,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   <BarChart3 className="w-4 h-4 mr-1" />
                   <span>Programático</span>
                   <ChevronRight
-                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${
-                      programaticoOpen ? "rotate-90" : "rotate-0"
-                    }`}
+                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${programaticoOpen ? "rotate-90" : "rotate-0"
+                      }`}
                   />
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
@@ -135,9 +136,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       >
                         <span>Diagnóstico y propuestas</span>
                         <ChevronRight
-                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${
-                            diagnosticoOpen ? "rotate-90" : "rotate-0"
-                          }`}
+                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${diagnosticoOpen ? "rotate-90" : "rotate-0"
+                            }`}
                         />
                       </Button>
                       <CollapsibleContent className="transition-all duration-200">
@@ -167,7 +167,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
-                    
+
                     {/* Propuestas (COMENTADA) */}
                     {/*
                     <Collapsible open={propuestasOpen} onOpenChange={setPropuestasOpen}>
@@ -221,16 +221,40 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   <Vote className="w-4 h-4 mr-1" />
                   <span>Electoral</span>
                   <ChevronRight
-                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${
-                      electoralOpen ? "rotate-90" : "rotate-0"
-                    }`}
+                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${electoralOpen ? "rotate-90" : "rotate-0"
+                      }`}
                   />
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
                   <div className="ml-6 space-y-1 mt-1">
-                    {/* 🔽 (COMENTADO) */}
+                    {/* Elecciones 2016 */}
+                    <Collapsible open={elecciones2016Open} onOpenChange={setElecciones2016Open}>
+                      <Button
+                        variant="ghost"
+                        onClick={() => setElecciones2016Open(!elecciones2016Open)}
+                        className="w-full justify-start h-8 text-sm hover:bg-sidebar-accent/50 transition-colors"
+                      >
+                        <span>Elecciones 2016</span>
+                        <ChevronRight
+                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${elecciones2016Open ? "rotate-90" : "rotate-0"
+                            }`}
+                        />
+                      </Button>
+                      <CollapsibleContent className="transition-all duration-200">
+                        <div className="ml-4 space-y-1 mt-1">
+                          <Button
+                            variant="ghost"
+                            onClick={() => handleNavigation("/dashboard/electoral/2016/visor")}
+                            className="w-full justify-start h-7 text-xs hover:bg-sidebar-accent/30 transition-colors"
+                          >
+                            <Eye className="w-3 h-3 mr-2" />
+                            Visor
+                          </Button>
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
+
                     {/* Elecciones 2018 */}
-                    
                     <Collapsible open={elecciones2018Open} onOpenChange={setElecciones2018Open}>
                       <Button
                         variant="ghost"
@@ -239,14 +263,13 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       >
                         <span>Elecciones 2018</span>
                         <ChevronRight
-                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${
-                            elecciones2018Open ? "rotate-90" : "rotate-0"
-                          }`}
+                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${elecciones2018Open ? "rotate-90" : "rotate-0"
+                            }`}
                         />
                       </Button>
                       <CollapsibleContent className="transition-all duration-200">
                         <div className="ml-4 space-y-1 mt-1">
-                          
+
                           <Button
                             variant="ghost"
                             onClick={() => handleNavigation("/dashboard/electoral/2018/visor")}
@@ -268,7 +291,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
-                    
+
 
                     {/* Elecciones 2022 */}
                     <Collapsible open={elecciones2022Open} onOpenChange={setElecciones2022Open}>
@@ -279,9 +302,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       >
                         <span>Elecciones 2022</span>
                         <ChevronRight
-                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${
-                            elecciones2022Open ? "rotate-90" : "rotate-0"
-                          }`}
+                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${elecciones2022Open ? "rotate-90" : "rotate-0"
+                            }`}
                         />
                       </Button>
                       <CollapsibleContent className="transition-all duration-200">
@@ -307,6 +329,33 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
+
+                    {/* General y Estrategia */}
+                    <Collapsible open={generalEstrategiaOpen} onOpenChange={setGeneralEstrategiaOpen}>
+                      <Button
+                        variant="ghost"
+                        onClick={() => setGeneralEstrategiaOpen(!generalEstrategiaOpen)}
+                        className="w-full justify-start h-8 text-sm hover:bg-sidebar-accent/50 transition-colors"
+                      >
+                        <span>General y Estrategia</span>
+                        <ChevronRight
+                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${generalEstrategiaOpen ? "rotate-90" : "rotate-0"
+                            }`}
+                        />
+                      </Button>
+                      <CollapsibleContent className="transition-all duration-200">
+                        <div className="ml-4 space-y-1 mt-1">
+                          <Button
+                            variant="ghost"
+                            onClick={() => handleNavigation("/dashboard/electoral/general-estrategia/visor")}
+                            className="w-full justify-start h-7 text-xs hover:bg-sidebar-accent/30 transition-colors"
+                          >
+                            <Eye className="w-3 h-3 mr-2" />
+                            Visor
+                          </Button>
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
                   </div>
                 </CollapsibleContent>
               </Collapsible>
@@ -323,9 +372,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   <PieChart className="w-4 h-4 mr-1" />
                   <span>Encuestas</span>
                   <ChevronRight
-                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${
-                      encuestasOpen ? "rotate-90" : "rotate-0"
-                    }`}
+                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${encuestasOpen ? "rotate-90" : "rotate-0"
+                      }`}
                   />
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
@@ -365,9 +413,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   <User className="w-4 h-4 mr-1" />
                   <span>Candidatos</span>
                   <ChevronRight
-                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${
-                      candidatosOpen ? "rotate-90" : "rotate-0"
-                    }`}
+                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${candidatosOpen ? "rotate-90" : "rotate-0"
+                      }`}
                   />
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
@@ -396,9 +443,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   <Calendar className="w-4 h-4 mr-1" />
                   <span>Día D</span>
                   <ChevronRight
-                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${
-                      diaDOpen ? "rotate-90" : "rotate-0"
-                    }`}
+                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${diaDOpen ? "rotate-90" : "rotate-0"
+                      }`}
                   />
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
@@ -427,9 +473,8 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   <FileSignature className="w-4 h-4 mr-1" />
                   <span>Firmas</span>
                   <ChevronRight
-                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${
-                      firmasOpen ? "rotate-90" : "rotate-0"
-                    }`}
+                    className={`ml-auto w-4 h-4 transition-transform duration-200 ${firmasOpen ? "rotate-90" : "rotate-0"
+                      }`}
                   />
                 </Button>
                 <CollapsibleContent className="transition-all duration-200">
@@ -455,7 +500,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
         <Button
           variant="ghost"
           onClick={handleLogout}
-          className="w-full justify-start h-9 text-destructive hover:text-destructive hover:bg-destructive/10 transition-colors"
+          className="w-full justify-start h-9 text-red-600 dark:text-red-500 hover:text-red-700 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors"
         >
           <LogOut className="w-4 h-4 mr-1" />
           <span>Cerrar Sesión</span>

@@ -17,13 +17,18 @@ export default function Electoral2018VisorPage() {
         </button>
       </div>
 
-      <div className="w-full h-[600px] border rounded-xl overflow-hidden shadow-sm hidden">
-      <iframe src="https://estadisticaselectorales.registraduria.gov.co/unit?str_opc=Elecciones%20Presidenciales%20Primera%20Vuelta&idFilter=1&filter=PRESIDENCIALES&t=&y1=2018&i1=5&y2=&i2=-" className="w-full h-full" title="Visor de Firmas" />
+      <div className="w-full h-[600px] border rounded-lg overflow-hidden">
+        <iframe src="https://johnguerra.co/viz/resultadosPrimeraVuelta2018/" className="w-full h-full" title="Elecciones 2018 Visor" />
       </div>
 
       <div className="w-full h-[600px] border rounded-lg overflow-hidden">
-        <iframe src="https://andres-castiblanco.github.io/Elecciones/#11/4.5485/-74.1327" className="w-full h-full" title="Elecciones 2018 Visor" />
-      </div>   
+        <iframe src="https://johnguerra.co/viz/resultadosSegundaVuelta2018/" className="w-full h-full" title="Elecciones 2018 Visor" />
+      </div>
+
+      <div className="w-full h-[600px] border rounded-lg overflow-hidden">
+        <iframe src="https://johnguerra.co/viz/resultadosSegundaVuelta2018/index_old.html" className="w-full h-full" title="Elecciones 2018 Visor" />
+      </div>
+
     </div>
   )
 }

@@ -121,7 +121,7 @@ export function DashboardHeader({ user, onLogout, onToggleSidebar, sidebarOpen }
           variant="ghost"
           size="sm"
           onClick={onLogout}
-          className="text-destructive hover:text-destructive hover:bg-destructive/10 transition-colors"
+          className="text-red-600 dark:text-red-500 hover:text-red-700 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors"
         >
           <LogOut className="w-4 h-4" />
           <span className="hidden lg:inline ml-2">Cerrar Sesión</span>

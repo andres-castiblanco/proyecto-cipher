@@ -3,12 +3,24 @@
 import { useRouter } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Vote, Calendar, ArrowRight, Eye, FileText } from "lucide-react"
+import { Vote, Calendar, ArrowRight, Eye, FileText, Flag, Target } from "lucide-react"
 
 export default function ElectoralPage() {
   const router = useRouter()
 
   const elections = [
+    {
+      id: "2016",
+      title: "Elecciones 2016",
+      description: "Análisis electoral y resultados 2016",
+      icon: Flag,
+      color: "bg-red-500",
+      hoverColor: "hover:bg-red-600",
+      subsections: [
+        { name: "Visor", path: "/dashboard/electoral/2016/visor", icon: Eye },
+        // { name: "Briefs", path: "/dashboard/electoral/2016/briefs", icon: FileText },
+      ],
+    },
     {
       id: "2018",
       title: "Elecciones 2018",
@@ -18,7 +30,7 @@ export default function ElectoralPage() {
       hoverColor: "hover:bg-blue-600",
       subsections: [
         { name: "Visor", path: "/dashboard/electoral/2018/visor", icon: Eye },
-       // { name: "Briefs", path: "/dashboard/electoral/2018/briefs", icon: FileText },
+        // { name: "Briefs", path: "/dashboard/electoral/2018/briefs", icon: FileText },
       ],
     },
     {
@@ -33,6 +45,18 @@ export default function ElectoralPage() {
         //{ name: "Briefs", path: "/dashboard/electoral/2022/briefs", icon: FileText },
       ],
     },
+    {
+      id: "general-estrategia",
+      title: "General y Estrategia",
+      description: "Análisis general y estratégico electoral",
+      icon: Target,
+      color: "bg-purple-500",
+      hoverColor: "hover:bg-purple-600",
+      subsections: [
+        { name: "Visor", path: "/dashboard/electoral/general-estrategia/visor", icon: Eye },
+        // { name: "Briefs", path: "/dashboard/electoral/general-estrategia/briefs", icon: FileText },
+      ],
+    },
   ]
 
   return (
@@ -40,7 +64,7 @@ export default function ElectoralPage() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold">Módulo Electoral</h1>
-          <p className="text-muted-foreground">Análisis electoral 2018 y 2022</p>
+          <p className="text-muted-foreground">Estrategia y Análisis electoral 2016, 2018 y 2022</p>
         </div>
         <button onClick={() => router.back()} className="text-sm text-muted-foreground hover:text-foreground">
           ← Volver
