@@ -1,8 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/dashboard/candidatos/relevantes/page": "app/dashboard/candidatos/relevantes/page.js",
-  "/dashboard/programatico/diagnostico/briefs/page": "app/dashboard/programatico/diagnostico/briefs/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/dashboard/electoral/2016/visor/page": "app/dashboard/electoral/2016/visor/page.js",
-  "/dashboard/electoral/general-estrategia/visor/page": "app/dashboard/electoral/general-estrategia/visor/page.js"
+  "/dashboard/programatico/diagnostico/briefs/page": "app/dashboard/programatico/diagnostico/briefs/page.js",
+  "/dashboard/electoral/2018/visor/page": "app/dashboard/electoral/2018/visor/page.js",
+  "/dashboard/electoral/page": "app/dashboard/electoral/page.js"
 }

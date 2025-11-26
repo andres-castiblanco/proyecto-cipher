@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Vote, Calendar, ArrowRight, Eye, FileText, Flag, Target } from "lucide-react"
+import { Vote, Calendar, ArrowRight, Eye, FileText, Flag, Target, Sparkles } from "lucide-react"
 
 export default function ElectoralPage() {
   const router = useRouter()
@@ -43,6 +43,18 @@ export default function ElectoralPage() {
       subsections: [
         { name: "Visor", path: "/dashboard/electoral/2022/visor", icon: Eye },
         //{ name: "Briefs", path: "/dashboard/electoral/2022/briefs", icon: FileText },
+      ],
+    },
+    {
+      id: "2025",
+      title: "Elecciones 2025",
+      description: "Análisis electoral y resultados 2025",
+      icon: Sparkles,
+      color: "bg-orange-500",
+      hoverColor: "hover:bg-orange-600",
+      subsections: [
+        { name: "Visor", path: "/dashboard/electoral/2025/visor", icon: Eye },
+        // { name: "Briefs", path: "/dashboard/electoral/2025/briefs", icon: FileText },
       ],
     },
     {

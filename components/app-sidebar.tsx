@@ -46,6 +46,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
   const [elecciones2016Open, setElecciones2016Open] = useState(false)
   const [elecciones2018Open, setElecciones2018Open] = useState(false)
   const [elecciones2022Open, setElecciones2022Open] = useState(false)
+  const [elecciones2025Open, setElecciones2025Open] = useState(false)
   const [generalEstrategiaOpen, setGeneralEstrategiaOpen] = useState(false)
   const [encuestasOpen, setEncuestasOpen] = useState(false)
   const [candidatosOpen, setCandidatosOpen] = useState(false)
@@ -330,6 +331,33 @@ export function AppSidebar({ user }: AppSidebarProps) {
                       </CollapsibleContent>
                     </Collapsible>
 
+                    {/* Elecciones 2025 */}
+                    <Collapsible open={elecciones2025Open} onOpenChange={setElecciones2025Open}>
+                      <Button
+                        variant="ghost"
+                        onClick={() => setElecciones2025Open(!elecciones2025Open)}
+                        className="w-full justify-start h-8 text-sm hover:bg-sidebar-accent/50 transition-colors"
+                      >
+                        <span>Elecciones 2025</span>
+                        <ChevronRight
+                          className={`ml-auto w-3 h-3 transition-transform duration-200 ${elecciones2025Open ? "rotate-90" : "rotate-0"
+                            }`}
+                        />
+                      </Button>
+                      <CollapsibleContent className="transition-all duration-200">
+                        <div className="ml-4 space-y-1 mt-1">
+                          <Button
+                            variant="ghost"
+                            onClick={() => handleNavigation("/dashboard/electoral/2025/visor")}
+                            className="w-full justify-start h-7 text-xs hover:bg-sidebar-accent/30 transition-colors"
+                          >
+                            <Eye className="w-3 h-3 mr-2" />
+                            Visor
+                          </Button>
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
+
                     {/* General y Estrategia */}
                     <Collapsible open={generalEstrategiaOpen} onOpenChange={setGeneralEstrategiaOpen}>
                       <Button
@@ -356,6 +384,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                         </div>
                       </CollapsibleContent>
                     </Collapsible>
+
                   </div>
                 </CollapsibleContent>
               </Collapsible>

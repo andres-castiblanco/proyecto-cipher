@@ -21,60 +21,40 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/page.js"
     ],
-    "/dashboard/electoral/2018/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2018/visor/page.js"
-    ],
-    "/dashboard/electoral/2022/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2022/visor/page.js"
-    ],
-    "/dashboard/electoral/2016/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2016/visor/page.js"
-    ],
-    "/dashboard/admin/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/admin/page.js"
-    ],
     "/dashboard/electoral/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/electoral/page.js"
-    ],
-    "/dashboard/electoral/2016/briefs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/electoral/2016/briefs/page.js"
-    ],
-    "/dashboard/programatico/diagnostico/briefs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/programatico/diagnostico/briefs/page.js"
-    ],
-    "/dashboard/encuestas/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/encuestas/page.js"
-    ],
-    "/dashboard/encuestas/visor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/encuestas/visor/page.js"
     ],
     "/dashboard/electoral/general-estrategia/visor/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/electoral/general-estrategia/visor/page.js"
     ],
-    "/dashboard/candidatos/relevantes/page": [
+    "/dashboard/electoral/2022/visor/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/candidatos/relevantes/page.js"
+      "static/chunks/app/dashboard/electoral/2022/visor/page.js"
+    ],
+    "/dashboard/electoral/2025/visor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2025/visor/page.js"
+    ],
+    "/dashboard/programatico/diagnostico/briefs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/programatico/diagnostico/briefs/page.js"
+    ],
+    "/dashboard/electoral/2016/visor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2016/visor/page.js"
+    ],
+    "/dashboard/electoral/2018/visor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/electoral/2018/visor/page.js"
     ]
   }
 }
