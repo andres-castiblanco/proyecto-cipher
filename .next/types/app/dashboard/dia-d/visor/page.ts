@@ -1,8 +1,8 @@
-// File: /Users/samuelperez/Desktop/Personal/Electoral/proyecto-cipher/app/dashboard/electoral/2022/visor/page.tsx
-import * as entry from '../../../../../../../app/dashboard/electoral/2022/visor/page.js'
+// File: /Users/samuelperez/Desktop/Personal/Electoral/proyecto-cipher/app/dashboard/dia-d/visor/page.tsx
+import * as entry from '../../../../../../app/dashboard/dia-d/visor/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../../../app/dashboard/electoral/2022/visor/page.js')
+type TEntry = typeof import('../../../../../../app/dashboard/dia-d/visor/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
