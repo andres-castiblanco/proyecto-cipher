@@ -1,4 +1,4 @@
-// File: /Users/SamuelPerez_1/Desktop/proyecto-cipher/app/dashboard/layout.tsx
+// File: /Users/samuelperez/Desktop/Personal/Electoral/proyecto-cipher/app/dashboard/layout.tsx
 import * as entry from '../../../../app/dashboard/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

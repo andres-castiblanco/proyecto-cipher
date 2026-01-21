@@ -1,4 +1,4 @@
-// File: /Users/SamuelPerez_1/Desktop/proyecto-cipher/app/dashboard/electoral/2025/visor/page.tsx
+// File: /Users/samuelperez/Desktop/Personal/Electoral/proyecto-cipher/app/dashboard/electoral/2025/visor/page.tsx
 import * as entry from '../../../../../../../app/dashboard/electoral/2025/visor/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -34,6 +34,14 @@ export default function Electoral2022VisorPage() {
       </div>
 
       <div className="w-full h-[600px] border rounded-lg overflow-hidden">
+        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZWRlZGZhMGEtMjJkNi00YWUyLWI1YWQtNzYxZGRiYWRiMDYxIiwidCI6IjRhZjBmODA5LWVhNzctNGQ3Yi1iNmNkLTkyOGZhZmNjZWIzMyIsImMiOjR9" className="w-full h-full" title="Elecciones 2022 Visor" />
+      </div>
+
+      <div className="w-full h-[600px] border rounded-lg overflow-hidden">
+        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZGUzNTAwNmYtYmY1YS00ZDk4LWExYTEtMjBkZWZhZDA3YTE0IiwidCI6IjRhZjBmODA5LWVhNzctNGQ3Yi1iNmNkLTkyOGZhZmNjZWIzMyIsImMiOjR9" className="w-full h-full" title="Elecciones 2022 Visor" />
+      </div>
+
+      <div className="w-full h-[600px] border rounded-lg overflow-hidden">
         <h1 className="text-3xl font-bold">Elección en Bogotá</h1>
         <iframe src="https://johnguerra.co/viz/resultadosPrimeraVuelta2022Bogota/" className="w-full h-full" title="Elecciones 2022 Visor" />
       </div>
