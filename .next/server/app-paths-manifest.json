@@ -1,5 +1,5 @@
 {
   "/page": "app/page.js",
-  "/dashboard/electoral/general-estrategia/visor/page": "app/dashboard/electoral/general-estrategia/visor/page.js",
-  "/dashboard/dia-d/visor/page": "app/dashboard/dia-d/visor/page.js"
+  "/dashboard/electoral/2022/visor/page": "app/dashboard/electoral/2022/visor/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
 }
