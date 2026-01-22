@@ -1,0 +1,7 @@
+{
+  "/dashboard/firmas/visor/page": "app/dashboard/firmas/visor/page.js",
+  "/dashboard/programatico/diagnostico/briefs/page": "app/dashboard/programatico/diagnostico/briefs/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/programatico/page": "app/dashboard/programatico/page.js",
+  "/dashboard/electoral/2022/visor/page": "app/dashboard/electoral/2022/visor/page.js"
+}
